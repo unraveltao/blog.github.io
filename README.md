@@ -1,5 +1,5 @@
 # 我的个人博客
-<p>[English](./README_EN.md) | 中文</p>
+中文 | [English](README_EN.md) 
 
 这是一个使用 Next.js 和 React 构建的个人博客网站。
 同时，它还是一个教会你构建博客的项目。
