@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 我的个人博客
 
-## Getting Started
+这是一个使用 Next.js 和 React 构建的个人博客网站。
+同时，它还是一个教会你构建博客的项目。
 
-First, run the development server:
+## ⚙️ 技术栈
 
+- Next.js - React 框架，用于服务器端渲染和静态站点生成
+- React - 用于构建用户界面的 JavaScript 库
+- TypeScript - JavaScript 的类型化超集
+- Tailwind CSS - 用于快速构建自定义设计的实用优先的 CSS 框架
+- ESLint - 用于识别和报告 JavaScript 代码中的模式的工具
+
+## 🔋 功能
+
+- 响应式设计，适配各种设备
+- 服务器端渲染，提高首屏加载速度和 SEO
+- 静态站点生成，优化性能
+- 支持 Markdown 格式的博客文章
+- 自定义布局和主题
+
+## 🚀 开始使用
+
+1. 克隆仓库
+```bash
+git clone https://github.com/你的用户名/你的仓库名.git
+```
+1. 安装依赖
+```bash
+cd 你的仓库名
+npm install
+```
+1. 运行开发服务器
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+1. 打开 [http://localhost:3000](http://localhost:3000) 查看您的应用
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧱 构建和部署
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+要构建生产版本的应用，运行：
+```bash
+npm run build
+```
+然后，您可以使用：
+```bash
+npm start
+```
+来启动生产服务器。
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🌟 贡献
 
-## Learn More
+欢迎提交 pull requests。对于重大更改，请先打开一个 issue 讨论您想要改变的内容。
 
-To learn more about Next.js, take a look at the following resources:
+## ⚖️ 许可证
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[MIT](https://choosealicense.com/licenses/mit/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
