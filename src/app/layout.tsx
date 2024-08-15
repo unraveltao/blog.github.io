@@ -1,10 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
+import "@/styles/globals.css";
 import { cn } from "@/lib/utils";
 import { SiteHeader } from "@/components/site-header";
-// import { Providers } from "@/components/providers";
 import { siteConfig } from "@/components/site";
+import { Providers } from "@/components/providers";
 // import { SiteFooter } from "@/components/site-footer";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
@@ -35,10 +35,12 @@ export default function RootLayout({
           inter.variable
         )}
       >
-        <div className="relative flex min-h-dvh flex-col bg-background">
-          <SiteHeader />
-          <main className="flex-1">{children}</main>
-        </div>
+        <Providers>
+          <div className="relative flex min-h-dvh flex-col bg-background">
+            <SiteHeader />
+            <main className="flex-1">{children}</main>
+          </div>
+        </Providers>
       </body>
     </html>
   );

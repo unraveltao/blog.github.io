@@ -1,9 +1,11 @@
-import { siteConfig } from "./site";
+import { siteConfig } from "@/components/site";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import { Icons } from "./icons";
 import { MainNav } from "./main-nav";
+import { MobileNav } from "./mobile-nav";
+import { ModeToggle } from "./mode-toggle";
 
 export function SiteHeader() {
   return (
@@ -42,7 +44,8 @@ export function SiteHeader() {
                 <span className="sr-only">Twitter</span>
               </div>
             </Link>
-
+            <ModeToggle />
+            <MobileNav />
           </nav>
         </div>
       </div>
